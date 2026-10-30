@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mars_msgs/msg/Monitor.msg
+// generated code does not contain a copyright notice
+
+
+module mars_msgs {
+  module msg {
+    struct Monitor {
+      float battery;
+
+      float temp;
+
+      string health;
+    };
+  };
+};

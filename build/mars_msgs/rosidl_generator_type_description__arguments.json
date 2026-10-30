@@ -1,0 +1,18 @@
+{
+  "package_name": "mars_msgs",
+  "output_dir": "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs/rosidl_generator_type_description/mars_msgs",
+  "idl_tuples": [
+    "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs/rosidl_adapter/mars_msgs:msg/RoverOdometry.idl",
+    "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs/rosidl_adapter/mars_msgs:msg/Monitor.idl",
+    "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs/rosidl_adapter/mars_msgs:srv/SetMode.idl",
+    "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs/rosidl_adapter/mars_msgs:action/DriveTo.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/lyrical/share/std_msgs/",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/",
+    "geometry_msgs:/opt/ros/lyrical/share/geometry_msgs/",
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/",
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/",
+    "unique_identifier_msgs:/opt/ros/lyrical/share/unique_identifier_msgs/"
+  ]
+}

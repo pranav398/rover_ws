@@ -1,0 +1,9 @@
+{
+  "package_name": "mars_msgs",
+  "non_idl_tuples": [
+    "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/mars_msgs:msg/RoverOdometry.msg",
+    "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/mars_msgs:msg/Monitor.msg",
+    "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/mars_msgs:srv/SetMode.srv",
+    "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/mars_msgs:action/DriveTo.action"
+  ]
+}

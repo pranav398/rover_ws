@@ -1,0 +1,55 @@
+running egg_info
+creating ../../build/rover_nav/rover_nav.egg-info
+writing ../../build/rover_nav/rover_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/rover_nav/rover_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/rover_nav/rover_nav.egg-info/entry_points.txt
+writing requirements to ../../build/rover_nav/rover_nav.egg-info/requires.txt
+writing top-level names to ../../build/rover_nav/rover_nav.egg-info/top_level.txt
+writing manifest file '../../build/rover_nav/rover_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/rover_nav/rover_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/rover_nav/rover_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+copying rover_nav/drive_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+copying rover_nav/mission_client.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+copying rover_nav/navigator_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+copying rover_nav/odom_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+copying rover_nav/square_script.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+copying rover_nav/__init__.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+copying rover_nav/py.typed -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+running install
+running install_lib
+creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/drive_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/mission_client.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/navigator_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/odom_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/py.typed -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/square_script.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/__init__.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/drive_node.py to drive_node.cpython-314.pyc
+byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/mission_client.py to mission_client.cpython-314.pyc
+byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/navigator_node.py to navigator_node.cpython-314.pyc
+byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/odom_node.py to odom_node.cpython-314.pyc
+byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/square_script.py to square_script.cpython-314.pyc
+byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/__init__.py to __init__.cpython-314.pyc
+running install_data
+creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/ament_index/resource_index/packages
+copying resource/rover_nav -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/ament_index/resource_index/packages
+copying package.xml -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav
+creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch
+copying launch/nav.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch
+copying launch/rover.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch
+copying launch/two_rover.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch
+creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/config
+copying config/rover.params.yaml -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/config
+running install_egg_info
+Copying ../../build/rover_nav/rover_nav.egg-info to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav-0.0.0-py3.14.egg-info
+running install_scripts
+Installing drive_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav
+Installing mission_client script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav
+Installing navigator_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav
+Installing odom_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav
+Installing square_script script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav
+writing list of installed files to '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/install.log'

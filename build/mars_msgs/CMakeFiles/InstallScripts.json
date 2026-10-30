@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs/cmake_install.cmake",
+		"/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs/mars_msgs__py/cmake_install.cmake",
+		"/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs/mars_msgs__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

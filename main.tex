@@ -1,0 +1,147 @@
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\geometry{margin=1in}
+\onehalfspacing
+
+\title{ROS2 Assignment Report}
+\author{Pranav Bagrecha \\ Software Subsystem, MRT, IITB}
+\date{October, 2026}
+
+\begin{document}
+\maketitle
+
+\section{Issues}
+The issues encountered during the completion of the assignment, along with the implemented solution, are documented below.
+
+\subsection{Task 1: Workspace and Packages}
+No significant errors or issues were encountered during the implementation of this assignment as the task was only to create packages and the code was provided in the assignment itself.
+
+\subsection{Task 2: Power Publisher}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Issue: Integer Stored in Float}\\
+    \textbf{Cause:} While initial declaration, temperature and battery were declared as 100, 20 respectively, and then it was parsed in \texttt{Float32MultiArray} which conflicts the data type.\\
+    \textbf{Solution:} Declare the temperature and battery as 100.0 and 20.0, respectively, and be cautious about data types.
+\end{enumerate}
+
+\subsection{Task 3: Health and Monitor Node}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Issue: Publishing in Health Node}\\
+    \textbf{Cause:} Got confused between \texttt{string} and \texttt{String} so I directly published it as \texttt{self.pub.publish("MSG")}\\
+    \textbf{Solution:} Publish it as \texttt{String("MSG")}
+\end{enumerate}
+
+\subsection{Task 4: Launch File}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Issue: Unable to filter logs to display only those from \texttt{monitor\_node}}\\
+    \textbf{Cause:} I expected that writing \texttt{output='screen'} would mean that only the logs of that node would be displayed but it is not like that.\\
+    \textbf{Solution:} There is another command that uses \texttt{--ros-args} to do that.
+\end{enumerate}
+
+\subsection{Task 5: Custom Message and Odometry}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Issue: Difficulties in building \texttt{mars\_msgs} package}\\
+    \textbf{Cause:} Did not update \texttt{package.xml} and \texttt{CMakeLists.txt} properly\\
+    \textbf{Solution:} Reread the documentation and corrceted syntax and including errors accordingly
+    
+    \item \textbf{Issue: Errors in calling parameters}\\
+    \textbf{Cause:} Used \texttt{self.get\_logger().warn(...)}\\
+    \textbf{Solution:} According to some new update, \texttt{warn()} is now \texttt{warning()} so replaced it with \texttt{self.get\_logger().warning(...)}
+\end{enumerate}
+
+\subsection{Task 6: Parameters}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Issue: While reading the values of parameters}\\
+    \textbf{Cause:} I assumed that parameters parameters used in YAML file may not be required to declared again in node and its value can be read directly but that is not how things work.\\
+    \textbf{Solution:} Declare parameters in node before using it.
+\end{enumerate}
+
+\subsection{Task 7: Close the Loop}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Issue: Even without implementing any specific QoS, \texttt{monitor\_node} was able to read previous value published on \texttt{rover/health}}\\
+    \textbf{Cause:} I always declared publisher as \texttt{self.pub = self.create\_publisher(<type>, '<name>', 10)}. So the 10 written did the job.
+
+    \item \textbf{Issue: Math runtime error}\\
+    \textbf{Cause:} While implementing 'Better Odometry', I did not bother about the edge case where angular velocity is zero, so it gave divide by 0 error.\\
+    \textbf{Solution:} Add an edge case for situation when angular velocity is zero.
+\end{enumerate}
+
+\subsection{Task 8: Mission Control}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Issue: Multiple Conflict between \texttt{async} and \texttt{spin} causing a bunch of runtime errors}\\
+    \textbf{Cause:} Did many logical errors and caused conflict between different functions.
+    \textbf{Solution:} Rewrote the code over the template code available in documentation.
+
+    \item \textbf{Issue: Unoptimised Path towards Shelter}\\
+    \textbf{Cause:} The program for reaching the destination only made rover go along the axis and hence consumed a huge amount of battery and at times didn't reach the destination when it could have reached if straight line path was followed.\\
+    \textbf{Solution:} Implemented the straight line path navigation.
+
+    \item \textbf{Issue: Heading Correction while moving towards Shelter}\\
+    \textbf{Cause:} The heading was set only once during initialization, but at times it had errors and overturned due to finite amount of time between successive checks. This caused the rover to significantly deflect from intended target if the distance was large enough.\\
+    \textbf{Solution:} Implemented heading checks and correction after each loop.
+
+    \item \textbf{Issue: Overrunning over Shelter}\\
+    \textbf{Cause:} The speed of rover was set at speed limit of the rover as in \texttt{odom\_node}, but again due to finite interval between successive checks, the rover sometimes overran over the shelter, then turned $180^{\circ}$ and then again overran and was stuck in this infinite loop.\\
+    \textbf{Solution:} Reduce the speed of rover when the shelter was close enough.
+\end{enumerate}
+
+\subsection{Task 9: Two Rovers and a Bag File}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Issue: Conflict between topic names when two rovers are ran simultaneously}\\
+    \textbf{Cause:} Absolute naming of topics, services and actions while declaring them by using \texttt{$\backslash$} while declaring.\\
+    \textbf{Solution:} Remove the preceding \texttt{$\backslash$} from the names, which makes their names relative and they get distinguished by namespace.
+
+    \item \textbf{Issue: Recording}\\
+    \textbf{Cause:} Due to some reason, wildcards like \texttt{ros2 bag record -o rover\_bag --topics /rover/* /cmd\_vel} gave not recognised error.\\
+    \textbf{Solution:} Listed all the topics as \texttt{ros2 bag record -o rover\_bag --topics /cmd\_vel /rover/health /rover/monitor /rover/odom /rover/power }.
+\end{enumerate}
+
+\section{How a ROS2 Service Works}
+ROS2 services provide a communication mechanism based on a request-response model. A client sends a request to a server, and the server processes the request and sends back a response.
+
+\subsection{Service Server}
+A service server declares/creates a particular service and waits for requests from clients. When a request is received, the server processes it and returns an appropriate response.
+
+\subsection{Service Client}
+A service client is responsible for sending requests to a service server. It waits for the server to process the request and return a response.
+
+\subsection{Service Call Process}
+The working of a ROS 2 service can be explained using the \texttt{/rover/set\_mode} service:
+\begin{enumerate}
+    \item The service server (here \texttt{drive\_node}) starts and advertises the \texttt{/rover/set\_mode} service.
+    \item A client (here \texttt{navigator\_node}) sends a request to change the rover's operating mode.
+    \item The server receives the requested mode and processes the request.
+    \item The server updates the rover's mode if the request is valid.
+    \item The server sends a response to the client, indicating whether the operation was successful.
+    \item The client receives and displays the response and proceeds with the further execution if positive response is received based on the code.
+\end{enumerate}
+
+\subsection{Difference Between Services, Topics, and Actions}
+ROS 2 provides three main communication mechanisms:
+\begin{itemize}
+    \item \textbf{Services:} Services use request-response communication. They are suitable for short operations that require a response, such as changing the rover's operating mode.
+    \item \textbf{Topics:} Topics use a publish-subscribe communication model. Publishers publish messages, and subscribers receive them without requiring a direct response. They are suitable for sensor data and continuous updates since they can be stored, accessed and published by multiple other nodes as required.
+    \item \textbf{Actions:} Actions are designed for long-running tasks. They support sending goals, providing continuous feedback, and returning a final result. They also allow goals to be cancelled while executing based on other parameters, if any.
+\end{itemize}
+
+\section{Comments on the Assignment}
+Overall, the assignments provided practical experience with ROS2 communication mechanisms and helped improve my understanding of robotics software development.
+
+\subsection{Parts That Were Easy}
+Earlier parts up to Task 4 where quite easy and straight-forward since almost the whole code was already written in the assignment with only few logical steps that had to be written which was already practiced to a great extent in ARIA Assignment earlier.
+
+\subsection{Parts That Were Difficult}
+Task 7 and 8 were quite difficult as they involved handling multiple nodes, topics, services and actions. Considerable amount of time needed to be invested in these task to remove conflicts between various topics and topic publishers
+
+\subsection{Unclear Aspects}
+It would have been great if the part of Task 5 introducing Custom Messages contained more syntax and changes that had to be done in \texttt{package.xml} and \texttt{CMakeLists.txt} since I personally had to spend considerable time figuring the syntax out of documentations. 
+
+\end{document}

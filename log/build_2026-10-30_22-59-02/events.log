@@ -1,0 +1,594 @@
+[0.000000] (-) TimerEvent: {}
+[0.001320] (mars_msgs) JobQueued: {'identifier': 'mars_msgs', 'dependencies': OrderedDict()}
+[0.001932] (rover_power) JobQueued: {'identifier': 'rover_power', 'dependencies': OrderedDict()}
+[0.002103] (rover_nav) JobQueued: {'identifier': 'rover_nav', 'dependencies': OrderedDict({'mars_msgs': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs'})}
+[0.002218] (mars_msgs) JobStarted: {'identifier': 'mars_msgs'}
+[0.013968] (rover_power) JobStarted: {'identifier': 'rover_power'}
+[0.024942] (mars_msgs) JobProgress: {'identifier': 'mars_msgs', 'progress': 'cmake'}
+[0.025675] (mars_msgs) Command: {'cmd': ['/usr/bin/cmake', '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/mars_msgs', '-DCMAKE_INSTALL_PREFIX=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs'], 'cwd': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs', 'env': OrderedDict({'USER': 'pranav', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/pranav', 'OLDPWD': '/home/pranav', 'TERMINFO': '/home/pranav/.local/kitty.app/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/home/pranav/.local/kitty.app/lib/kitty', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '4686', 'KITTY_PID': '100000', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '5326', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '100000', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'pranav', '_': '/usr/bin/colcon', 'MANAGERPIDFDID': '41320', 'JOURNAL_STREAM': '10:38095', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'pranav', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:g6e4M4M2SZKGB!11jx6#z78}->320p!;^{@7&s+w', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/lyrical/bin:/home/pranav/.local/kitty.app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '63a793dfdd3b46e2acf90e039c9b2ca7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.67C1X3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': '/home/pranav/.local/kitty.app/share/man:', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[0.099911] (-) TimerEvent: {}
+[0.192043] (mars_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[0.200017] (-) TimerEvent: {}
+[0.300413] (-) TimerEvent: {}
+[0.349958] (mars_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[0.369040] (mars_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400840] (-) TimerEvent: {}
+[0.501107] (-) TimerEvent: {}
+[0.518688] (mars_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.540981] (mars_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.541705] (mars_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.542385] (mars_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.565596] (mars_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601256] (-) TimerEvent: {}
+[0.701588] (-) TimerEvent: {}
+[0.723555] (mars_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.745267] (mars_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.745639] (mars_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.746379] (mars_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.775251] (mars_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[0.801730] (-) TimerEvent: {}
+[0.902062] (-) TimerEvent: {}
+[1.002359] (-) TimerEvent: {}
+[1.059631] (rover_power) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rover_power', 'build', '--build-base', '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build', 'install', '--record', '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/install.log', '--install-scripts', '$base/lib/rover_power', '--single-version-externally-managed', 'install_data'], 'cwd': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/rover_power', 'env': OrderedDict({'USER': 'pranav', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/pranav', 'OLDPWD': '/home/pranav', 'TERMINFO': '/home/pranav/.local/kitty.app/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/home/pranav/.local/kitty.app/lib/kitty', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '4686', 'KITTY_PID': '100000', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '5326', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '100000', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'pranav', '_': '/usr/bin/colcon', 'MANAGERPIDFDID': '41320', 'JOURNAL_STREAM': '10:38095', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'pranav', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:g6e4M4M2SZKGB!11jx6#z78}->320p!;^{@7&s+w', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/lyrical/bin:/home/pranav/.local/kitty.app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '63a793dfdd3b46e2acf90e039c9b2ca7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.67C1X3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': '/home/pranav/.local/kitty.app/share/man:', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}), 'shell': False}
+[1.102438] (-) TimerEvent: {}
+[1.124111] (mars_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)\n'}
+[1.130937] (mars_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.185244] (mars_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202567] (-) TimerEvent: {}
+[1.236442] (mars_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)\n'}
+[1.240677] (mars_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.9.3 (/opt/ros/lyrical/share/std_msgs/cmake)\n'}
+[1.255202] (rover_power) StdoutLine: {'line': b'running egg_info\n'}
+[1.264723] (rover_power) StdoutLine: {'line': b'creating ../../build/rover_power/rover_power.egg-info\n'}
+[1.264880] (rover_power) StdoutLine: {'line': b'writing ../../build/rover_power/rover_power.egg-info/PKG-INFO\n'}
+[1.265267] (rover_power) StdoutLine: {'line': b'writing dependency_links to ../../build/rover_power/rover_power.egg-info/dependency_links.txt\n'}
+[1.265409] (rover_power) StdoutLine: {'line': b'writing entry points to ../../build/rover_power/rover_power.egg-info/entry_points.txt\n'}
+[1.265544] (rover_power) StdoutLine: {'line': b'writing requirements to ../../build/rover_power/rover_power.egg-info/requires.txt\n'}
+[1.265648] (rover_power) StdoutLine: {'line': b'writing top-level names to ../../build/rover_power/rover_power.egg-info/top_level.txt\n'}
+[1.265728] (rover_power) StdoutLine: {'line': b"writing manifest file '../../build/rover_power/rover_power.egg-info/SOURCES.txt'\n"}
+[1.267184] (mars_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.9.3 (/opt/ros/lyrical/share/geometry_msgs/cmake)\n'}
+[1.287181] (rover_power) StdoutLine: {'line': b"reading manifest file '../../build/rover_power/rover_power.egg-info/SOURCES.txt'\n"}
+[1.287762] (rover_power) StdoutLine: {'line': b"writing manifest file '../../build/rover_power/rover_power.egg-info/SOURCES.txt'\n"}
+[1.287944] (rover_power) StdoutLine: {'line': b'running build\n'}
+[1.288056] (rover_power) StdoutLine: {'line': b'running build_py\n'}
+[1.288157] (rover_power) StdoutLine: {'line': b'creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power\n'}
+[1.288240] (rover_power) StdoutLine: {'line': b'copying rover_power/health_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power\n'}
+[1.288301] (rover_power) StdoutLine: {'line': b'copying rover_power/monitor_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power\n'}
+[1.288492] (rover_power) StdoutLine: {'line': b'copying rover_power/power_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power\n'}
+[1.288691] (rover_power) StdoutLine: {'line': b'copying rover_power/__init__.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power\n'}
+[1.288821] (rover_power) StdoutLine: {'line': b'copying rover_power/py.typed -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power\n'}
+[1.288918] (rover_power) StdoutLine: {'line': b'running install\n'}
+[1.291714] (rover_power) StdoutLine: {'line': b'running install_lib\n'}
+[1.301661] (rover_power) StdoutLine: {'line': b'creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power\n'}
+[1.301837] (rover_power) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power/health_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power\n'}
+[1.302041] (rover_power) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power/monitor_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power\n'}
+[1.302122] (rover_power) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power/power_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power\n'}
+[1.302240] (rover_power) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power/py.typed -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power\n'}
+[1.302306] (rover_power) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power/__init__.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power\n'}
+[1.302497] (rover_power) StdoutLine: {'line': b'byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power/health_node.py to health_node.cpython-314.pyc\n'}
+[1.302645] (-) TimerEvent: {}
+[1.303007] (rover_power) StdoutLine: {'line': b'byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power/monitor_node.py to monitor_node.cpython-314.pyc\n'}
+[1.304854] (rover_power) StdoutLine: {'line': b'byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power/power_node.py to power_node.cpython-314.pyc\n'}
+[1.305882] (rover_power) StdoutLine: {'line': b'byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power/__init__.py to __init__.cpython-314.pyc\n'}
+[1.305984] (rover_power) StdoutLine: {'line': b'running install_data\n'}
+[1.306149] (rover_power) StdoutLine: {'line': b'creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/share/ament_index/resource_index/packages\n'}
+[1.306268] (rover_power) StdoutLine: {'line': b'copying resource/rover_power -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/share/ament_index/resource_index/packages\n'}
+[1.306372] (rover_power) StdoutLine: {'line': b'copying package.xml -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/share/rover_power\n'}
+[1.306523] (rover_power) StdoutLine: {'line': b'creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/share/rover_power/launch\n'}
+[1.306601] (rover_power) StdoutLine: {'line': b'copying launch/power.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/share/rover_power/launch\n'}
+[1.306731] (rover_power) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.317258] (rover_power) StdoutLine: {'line': b'Copying ../../build/rover_power/rover_power.egg-info to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power-0.0.0-py3.14.egg-info\n'}
+[1.318135] (rover_power) StdoutLine: {'line': b'running install_scripts\n'}
+[1.375267] (rover_power) StdoutLine: {'line': b'Installing health_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/rover_power\n'}
+[1.375523] (rover_power) StdoutLine: {'line': b'Installing monitor_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/rover_power\n'}
+[1.375695] (rover_power) StdoutLine: {'line': b'Installing power_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/rover_power\n'}
+[1.375860] (rover_power) StdoutLine: {'line': b"writing list of installed files to '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/install.log'\n"}
+[1.383782] (mars_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter\n'}
+[1.402766] (-) TimerEvent: {}
+[1.405954] (rover_power) CommandEnded: {'returncode': 0}
+[1.416308] (rover_power) JobEnded: {'identifier': 'rover_power', 'rc': 0}
+[1.502897] (-) TimerEvent: {}
+[1.603188] (-) TimerEvent: {}
+[1.703440] (-) TimerEvent: {}
+[1.803659] (-) TimerEvent: {}
+[1.903934] (-) TimerEvent: {}
+[2.004227] (-) TimerEvent: {}
+[2.104556] (-) TimerEvent: {}
+[2.107904] (mars_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.204706] (-) TimerEvent: {}
+[2.305050] (-) TimerEvent: {}
+[2.405395] (-) TimerEvent: {}
+[2.505757] (-) TimerEvent: {}
+[2.582770] (mars_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.605887] (-) TimerEvent: {}
+[2.706217] (-) TimerEvent: {}
+[2.806546] (-) TimerEvent: {}
+[2.907557] (-) TimerEvent: {}
+[2.947739] (mars_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed\n'}
+[2.995663] (mars_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter\n'}
+[2.998262] (mars_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)\n'}
+[3.007667] (-) TimerEvent: {}
+[3.024333] (mars_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.025899] (mars_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.028996] (mars_msgs) StdoutLine: {'line': b'-- Configuring done (3.0s)\n'}
+[3.074946] (mars_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.095802] (mars_msgs) StdoutLine: {'line': b'-- Build files have been written to: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs\n'}
+[3.104052] (mars_msgs) CommandEnded: {'returncode': 0}
+[3.104710] (mars_msgs) JobProgress: {'identifier': 'mars_msgs', 'progress': 'build'}
+[3.105364] (mars_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs', '--', '-j12', '-l12'], 'cwd': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs', 'env': OrderedDict({'USER': 'pranav', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/pranav', 'OLDPWD': '/home/pranav', 'TERMINFO': '/home/pranav/.local/kitty.app/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/home/pranav/.local/kitty.app/lib/kitty', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '4686', 'KITTY_PID': '100000', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '5326', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '100000', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'pranav', '_': '/usr/bin/colcon', 'MANAGERPIDFDID': '41320', 'JOURNAL_STREAM': '10:38095', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'pranav', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:g6e4M4M2SZKGB!11jx6#z78}->320p!;^{@7&s+w', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/lyrical/bin:/home/pranav/.local/kitty.app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '63a793dfdd3b46e2acf90e039c9b2ca7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.67C1X3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': '/home/pranav/.local/kitty.app/share/man:', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[3.107748] (-) TimerEvent: {}
+[3.164391] (mars_msgs) StdoutLine: {'line': b'[  1%] \x1b[1m\x1b[34mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.166058] (mars_msgs) StdoutLine: {'line': b'[  3%] \x1b[1m\x1b[34mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[3.207863] (-) TimerEvent: {}
+[3.308117] (-) TimerEvent: {}
+[3.318125] (mars_msgs) StdoutLine: {'line': b'[  3%] Built target mars_msgs__rosidl_generator_type_description\n'}
+[3.329443] (mars_msgs) StdoutLine: {'line': b'[  4%] \x1b[1m\x1b[34mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.344086] (mars_msgs) StdoutLine: {'line': b'[  6%] \x1b[1m\x1b[34mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.382611] (mars_msgs) StdoutLine: {'line': b'[  6%] Built target mars_msgs__rs\n'}
+[3.408234] (-) TimerEvent: {}
+[3.508593] (-) TimerEvent: {}
+[3.608852] (-) TimerEvent: {}
+[3.709586] (-) TimerEvent: {}
+[3.729197] (mars_msgs) StdoutLine: {'line': b'[  6%] Built target mars_msgs__cpp\n'}
+[3.809714] (-) TimerEvent: {}
+[3.820977] (mars_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/monitor__description.c.o\x1b[0m\n'}
+[3.821153] (mars_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/rover_odometry__functions.c.o\x1b[0m\n'}
+[3.821198] (mars_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/rover_odometry__type_support.c.o\x1b[0m\n'}
+[3.822106] (mars_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/rover_odometry__description.c.o\x1b[0m\n'}
+[3.822428] (mars_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/action/detail/drive_to__description.c.o\x1b[0m\n'}
+[3.823155] (mars_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/monitor__functions.c.o\x1b[0m\n'}
+[3.823238] (mars_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/monitor__type_support.c.o\x1b[0m\n'}
+[3.823809] (mars_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/srv/detail/set_mode__functions.c.o\x1b[0m\n'}
+[3.823890] (mars_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/srv/detail/set_mode__type_support.c.o\x1b[0m\n'}
+[3.826129] (mars_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/srv/detail/set_mode__description.c.o\x1b[0m\n'}
+[3.862974] (mars_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/action/detail/drive_to__functions.c.o\x1b[0m\n'}
+[3.865235] (mars_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/action/detail/drive_to__type_support.c.o\x1b[0m\n'}
+[3.909850] (-) TimerEvent: {}
+[3.970670] (mars_msgs) StdoutLine: {'line': b'[ 26%] \x1b[1m\x1b[32mLinking C shared library libmars_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.006975] (mars_msgs) StdoutLine: {'line': b'[ 26%] Built target mars_msgs__rosidl_generator_c\n'}
+[4.009927] (-) TimerEvent: {}
+[4.018542] (mars_msgs) StdoutLine: {'line': b'[ 29%] \x1b[1m\x1b[34mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.018747] (mars_msgs) StdoutLine: {'line': b'[ 29%] \x1b[1m\x1b[34mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.019766] (mars_msgs) StdoutLine: {'line': b'[ 30%] \x1b[1m\x1b[34mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.019916] (mars_msgs) StdoutLine: {'line': b'[ 32%] \x1b[1m\x1b[34mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.020591] (mars_msgs) StdoutLine: {'line': b'[ 33%] \x1b[1m\x1b[34mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.110016] (-) TimerEvent: {}
+[4.210262] (-) TimerEvent: {}
+[4.297974] (mars_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/msg/monitor__type_support.cpp.o\x1b[0m\n'}
+[4.298149] (mars_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/srv/set_mode__type_support.cpp.o\x1b[0m\n'}
+[4.298777] (mars_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/msg/rover_odometry__type_support.cpp.o\x1b[0m\n'}
+[4.301036] (mars_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/action/drive_to__type_support.cpp.o\x1b[0m\n'}
+[4.310371] (-) TimerEvent: {}
+[4.376304] (mars_msgs) StdoutLine: {'line': b'[ 41%] \x1b[1m\x1b[32mLinking CXX shared library libmars_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.383837] (mars_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/msg/rover_odometry__type_support.cpp.o\x1b[0m\n'}
+[4.386427] (mars_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/action/drive_to__type_support.cpp.o\x1b[0m\n'}
+[4.388997] (mars_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/msg/monitor__type_support.cpp.o\x1b[0m\n'}
+[4.389186] (mars_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/srv/set_mode__type_support.cpp.o\x1b[0m\n'}
+[4.410577] (-) TimerEvent: {}
+[4.411256] (mars_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/action/detail/drive_to__type_support.c.o\x1b[0m\n'}
+[4.412695] (mars_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/msg/detail/rover_odometry__type_support.c.o\x1b[0m\n'}
+[4.413349] (mars_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/srv/detail/set_mode__type_support.c.o\x1b[0m\n'}
+[4.413515] (mars_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/msg/detail/monitor__type_support.c.o\x1b[0m\n'}
+[4.436123] (mars_msgs) StdoutLine: {'line': b'[ 53%] Built target mars_msgs__rosidl_typesupport_c\n'}
+[4.487558] (mars_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/srv/detail/set_mode__type_support.cpp.o\x1b[0m\n'}
+[4.488003] (mars_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/msg/detail/rover_odometry__type_support.cpp.o\x1b[0m\n'}
+[4.488308] (mars_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/msg/detail/monitor__type_support.cpp.o\x1b[0m\n'}
+[4.491751] (mars_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/action/detail/drive_to__type_support.cpp.o\x1b[0m\n'}
+[4.497427] (mars_msgs) StdoutLine: {'line': b'[ 61%] \x1b[1m\x1b[32mLinking C shared library libmars_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.510719] (-) TimerEvent: {}
+[4.551070] (mars_msgs) StdoutLine: {'line': b'[ 61%] Built target mars_msgs__rosidl_typesupport_introspection_c\n'}
+[4.610843] (-) TimerEvent: {}
+[4.711132] (-) TimerEvent: {}
+[4.806664] (mars_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/action/detail/drive_to__type_support_c.cpp.o\x1b[0m\n'}
+[4.806892] (mars_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/msg/detail/monitor__type_support_c.cpp.o\x1b[0m\n'}
+[4.807063] (mars_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/srv/detail/set_mode__type_support_c.cpp.o\x1b[0m\n'}
+[4.808612] (mars_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/msg/detail/rover_odometry__type_support_c.cpp.o\x1b[0m\n'}
+[4.811247] (-) TimerEvent: {}
+[4.911768] (-) TimerEvent: {}
+[5.013693] (-) TimerEvent: {}
+[5.114107] (-) TimerEvent: {}
+[5.215718] (-) TimerEvent: {}
+[5.269194] (mars_msgs) StdoutLine: {'line': b'[ 69%] \x1b[1m\x1b[32mLinking CXX shared library libmars_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.315855] (-) TimerEvent: {}
+[5.355444] (mars_msgs) StdoutLine: {'line': b'[ 70%] \x1b[1m\x1b[32mLinking CXX shared library libmars_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.373611] (mars_msgs) StdoutLine: {'line': b'[ 70%] Built target mars_msgs__rosidl_typesupport_cpp\n'}
+[5.416005] (-) TimerEvent: {}
+[5.451950] (mars_msgs) StdoutLine: {'line': b'[ 70%] Built target mars_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.516144] (-) TimerEvent: {}
+[5.614395] (mars_msgs) StdoutLine: {'line': b'[ 72%] \x1b[1m\x1b[32mLinking CXX shared library libmars_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.616226] (-) TimerEvent: {}
+[5.682327] (mars_msgs) StdoutLine: {'line': b'[ 72%] Built target mars_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.692822] (mars_msgs) StdoutLine: {'line': b'[ 73%] \x1b[1m\x1b[34mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.716338] (-) TimerEvent: {}
+[5.816563] (-) TimerEvent: {}
+[5.916780] (-) TimerEvent: {}
+[6.017053] (-) TimerEvent: {}
+[6.117358] (-) TimerEvent: {}
+[6.177942] (mars_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/msg/detail/dds_fastrtps/rover_odometry__type_support.cpp.o\x1b[0m\n'}
+[6.178131] (mars_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/action/detail/dds_fastrtps/drive_to__type_support.cpp.o\x1b[0m\n'}
+[6.178909] (mars_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/msg/detail/dds_fastrtps/monitor__type_support.cpp.o\x1b[0m\n'}
+[6.179242] (mars_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o\x1b[0m\n'}
+[6.217460] (-) TimerEvent: {}
+[6.317813] (-) TimerEvent: {}
+[6.418126] (-) TimerEvent: {}
+[6.518482] (-) TimerEvent: {}
+[6.618931] (-) TimerEvent: {}
+[6.719228] (-) TimerEvent: {}
+[6.819493] (-) TimerEvent: {}
+[6.919770] (-) TimerEvent: {}
+[7.020092] (-) TimerEvent: {}
+[7.076235] (mars_msgs) StdoutLine: {'line': b'[ 81%] \x1b[1m\x1b[32mLinking CXX shared library libmars_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.120231] (-) TimerEvent: {}
+[7.159690] (mars_msgs) StdoutLine: {'line': b'[ 81%] Built target mars_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.182067] (mars_msgs) StdoutLine: {'line': b'[ 81%] Built target mars_msgs\n'}
+[7.208732] (mars_msgs) StdoutLine: {'line': b'[ 83%] \x1b[1m\x1b[34mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.220314] (-) TimerEvent: {}
+[7.320520] (-) TimerEvent: {}
+[7.420722] (-) TimerEvent: {}
+[7.520941] (-) TimerEvent: {}
+[7.621183] (-) TimerEvent: {}
+[7.721454] (-) TimerEvent: {}
+[7.821731] (-) TimerEvent: {}
+[7.921954] (-) TimerEvent: {}
+[8.022209] (-) TimerEvent: {}
+[8.044672] (mars_msgs) StdoutLine: {'line': b'[ 83%] Built target mars_msgs__py\n'}
+[8.067005] (mars_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/srv/_set_mode_s.c.o\x1b[0m\n'}
+[8.067597] (mars_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/msg/_rover_odometry_s.c.o\x1b[0m\n'}
+[8.067644] (mars_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/msg/_monitor_s.c.o\x1b[0m\n'}
+[8.068851] (mars_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/action/_drive_to_s.c.o\x1b[0m\n'}
+[8.077907] (mars_msgs) StdoutLine: {'line': b'[ 89%] Built target ament_cmake_python_sync_mars_msgs\n'}
+[8.122288] (-) TimerEvent: {}
+[8.222538] (-) TimerEvent: {}
+[8.247037] (mars_msgs) StdoutLine: {'line': b'[ 90%] \x1b[1m\x1b[32mLinking C shared library libmars_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.284946] (mars_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[8.297972] (mars_msgs) StdoutLine: {'line': b'creating mars_msgs.egg-info\n'}
+[8.298183] (mars_msgs) StdoutLine: {'line': b'writing mars_msgs.egg-info/PKG-INFO\n'}
+[8.298451] (mars_msgs) StdoutLine: {'line': b'writing dependency_links to mars_msgs.egg-info/dependency_links.txt\n'}
+[8.298635] (mars_msgs) StdoutLine: {'line': b'writing top-level names to mars_msgs.egg-info/top_level.txt\n'}
+[8.298739] (mars_msgs) StdoutLine: {'line': b"writing manifest file 'mars_msgs.egg-info/SOURCES.txt'\n"}
+[8.303639] (mars_msgs) StdoutLine: {'line': b'[ 90%] Built target mars_msgs__rosidl_generator_py\n'}
+[8.322666] (-) TimerEvent: {}
+[8.324534] (mars_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/mars_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.325017] (mars_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/mars_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.325658] (mars_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/mars_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.352258] (mars_msgs) StdoutLine: {'line': b"reading manifest file 'mars_msgs.egg-info/SOURCES.txt'\n"}
+[8.352992] (mars_msgs) StdoutLine: {'line': b"writing manifest file 'mars_msgs.egg-info/SOURCES.txt'\n"}
+[8.396190] (mars_msgs) StdoutLine: {'line': b'[ 95%] Built target ament_cmake_python_build_mars_msgs_egg\n'}
+[8.422789] (-) TimerEvent: {}
+[8.436857] (mars_msgs) StdoutLine: {'line': b'[ 96%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.447501] (mars_msgs) StdoutLine: {'line': b'[ 98%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.471279] (mars_msgs) StdoutLine: {'line': b'[ 98%] Built target mars_msgs_s__rosidl_typesupport_introspection_c\n'}
+[8.474922] (mars_msgs) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.483022] (mars_msgs) StdoutLine: {'line': b'[100%] Built target mars_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[8.511456] (mars_msgs) StdoutLine: {'line': b'[100%] Built target mars_msgs_s__rosidl_typesupport_c\n'}
+[8.523298] (mars_msgs) CommandEnded: {'returncode': 0}
+[8.523688] (-) TimerEvent: {}
+[8.525746] (mars_msgs) JobProgress: {'identifier': 'mars_msgs', 'progress': 'install'}
+[8.534467] (mars_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs'], 'cwd': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs', 'env': OrderedDict({'USER': 'pranav', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/pranav', 'OLDPWD': '/home/pranav', 'TERMINFO': '/home/pranav/.local/kitty.app/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/home/pranav/.local/kitty.app/lib/kitty', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '4686', 'KITTY_PID': '100000', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '5326', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '100000', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'pranav', '_': '/usr/bin/colcon', 'MANAGERPIDFDID': '41320', 'JOURNAL_STREAM': '10:38095', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'pranav', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:g6e4M4M2SZKGB!11jx6#z78}->320p!;^{@7&s+w', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/lyrical/bin:/home/pranav/.local/kitty.app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '63a793dfdd3b46e2acf90e039c9b2ca7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.67C1X3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': '/home/pranav/.local/kitty.app/share/man:', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[8.543729] (mars_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.544051] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/ament_index/resource_index/rosidl_interfaces/mars_msgs\n'}
+[8.544183] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/RoverOdometry.json\n'}
+[8.544382] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/Monitor.json\n'}
+[8.544562] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/srv/SetMode.json\n'}
+[8.544621] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/action/DriveTo.json\n'}
+[8.544838] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[8.545037] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action\n'}
+[8.545129] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail\n'}
+[8.545211] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__description.c\n'}
+[8.545332] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__functions.c\n'}
+[8.545577] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__functions.h\n'}
+[8.546010] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__struct.h\n'}
+[8.546267] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__type_support.c\n'}
+[8.546516] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__type_support.h\n'}
+[8.546776] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/drive_to.h\n'}
+[8.546939] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[8.547012] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[8.547079] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__description.c\n'}
+[8.547142] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__functions.c\n'}
+[8.547234] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__functions.h\n'}
+[8.547341] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__struct.h\n'}
+[8.547618] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__type_support.c\n'}
+[8.547701] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__type_support.h\n'}
+[8.547917] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__description.c\n'}
+[8.548024] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__functions.c\n'}
+[8.548114] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__functions.h\n'}
+[8.548224] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__struct.h\n'}
+[8.548338] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.c\n'}
+[8.548404] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.h\n'}
+[8.548512] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/monitor.h\n'}
+[8.548588] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.548679] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rover_odometry.h\n'}
+[8.548748] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[8.548801] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[8.548851] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__description.c\n'}
+[8.548957] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__functions.c\n'}
+[8.549067] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__functions.h\n'}
+[8.549180] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__struct.h\n'}
+[8.549282] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__type_support.c\n'}
+[8.549390] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__type_support.h\n'}
+[8.549484] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/set_mode.h\n'}
+[8.549607] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/library_path.sh\n'}
+[8.549693] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/library_path.dsv\n'}
+[8.549803] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_c.so\n'}
+[8.550266] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_c.so" to ""\n'}
+[8.550325] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[8.550367] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action\n'}
+[8.550414] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail\n'}
+[8.550452] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__rosidl_typesupport_fastrtps_c.h\n'}
+[8.550520] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[8.550564] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[8.550619] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__rosidl_typesupport_fastrtps_c.h\n'}
+[8.550696] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_fastrtps_c.h\n'}
+[8.550796] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.550895] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[8.550950] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[8.550986] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[8.551071] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.551566] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.551654] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[8.551697] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action\n'}
+[8.551736] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail\n'}
+[8.551819] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__rosidl_typesupport_introspection_c.h\n'}
+[8.551868] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__type_support.c\n'}
+[8.551903] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[8.551938] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[8.552012] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__rosidl_typesupport_introspection_c.h\n'}
+[8.552069] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__type_support.c\n'}
+[8.552133] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_introspection_c.h\n'}
+[8.552208] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.c\n'}
+[8.552266] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.552315] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[8.552355] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[8.552430] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__rosidl_typesupport_introspection_c.h\n'}
+[8.552577] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__type_support.c\n'}
+[8.552670] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.553152] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.553230] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_c.so\n'}
+[8.553823] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.553931] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[8.553987] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action\n'}
+[8.554032] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail\n'}
+[8.554131] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__builder.hpp\n'}
+[8.554344] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__struct.hpp\n'}
+[8.554685] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__traits.hpp\n'}
+[8.554931] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__type_support.hpp\n'}
+[8.555168] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/drive_to.hpp\n'}
+[8.555351] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[8.555453] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[8.555524] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__builder.hpp\n'}
+[8.555750] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__struct.hpp\n'}
+[8.555931] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__traits.hpp\n'}
+[8.556122] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__type_support.hpp\n'}
+[8.556277] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__builder.hpp\n'}
+[8.556443] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__struct.hpp\n'}
+[8.556667] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__traits.hpp\n'}
+[8.556791] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.hpp\n'}
+[8.556899] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/monitor.hpp\n'}
+[8.556995] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.557122] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rover_odometry.hpp\n'}
+[8.557209] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[8.557263] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[8.557316] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__builder.hpp\n'}
+[8.557421] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__struct.hpp\n'}
+[8.557557] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__traits.hpp\n'}
+[8.557690] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__type_support.hpp\n'}
+[8.557792] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/set_mode.hpp\n'}
+[8.557985] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[8.558082] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action\n'}
+[8.558127] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail\n'}
+[8.558174] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/dds_fastrtps\n'}
+[8.558212] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.558301] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[8.558349] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[8.558415] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/dds_fastrtps\n'}
+[8.558475] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.558565] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.558662] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.558767] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[8.558826] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[8.558863] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/dds_fastrtps\n'}
+[8.558915] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.559044] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.559865] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.559992] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[8.560035] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action\n'}
+[8.560076] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail\n'}
+[8.560132] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.560235] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__type_support.cpp\n'}
+[8.560510] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[8.560572] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[8.560629] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.560840] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__type_support.cpp\n'}
+[8.561039] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.561217] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.cpp\n'}
+[8.561382] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[8.561444] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[8.561510] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.561632] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__type_support.cpp\n'}
+[8.561831] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.562641] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.562701] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_cpp.so\n'}
+[8.563363] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.563423] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/pythonpath.sh\n'}
+[8.563538] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/pythonpath.dsv\n'}
+[8.563891] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.564308] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.564369] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[8.564778] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.564860] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.so\n'}
+[8.565305] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[8.565362] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_py.so\n'}
+[8.565907] (mars_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_py.so" to ""\n'}
+[8.566028] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust\n'}
+[8.566172] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/build.rs\n'}
+[8.566285] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/Cargo.toml\n'}
+[8.566436] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src\n'}
+[8.566525] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/action\n'}
+[8.566587] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/action/rmw.rs\n'}
+[8.566730] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/action.rs\n'}
+[8.566951] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/lib.rs\n'}
+[8.567054] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/msg\n'}
+[8.567122] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/msg/rmw.rs\n'}
+[8.567258] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/msg.rs\n'}
+[8.567389] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/srv\n'}
+[8.567456] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/srv/rmw.rs\n'}
+[8.567586] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/srv.rs\n'}
+[8.567736] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/RoverOdometry.idl\n'}
+[8.567860] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/Monitor.idl\n'}
+[8.567974] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/srv/SetMode.idl\n'}
+[8.568083] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/action/DriveTo.idl\n'}
+[8.568194] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/RoverOdometry.msg\n'}
+[8.568311] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/Monitor.msg\n'}
+[8.568427] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/srv/SetMode.srv\n'}
+[8.568578] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/action/DriveTo.action\n'}
+[8.568716] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/ament_index/resource_index/package_run_dependencies/mars_msgs\n'}
+[8.568834] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/ament_index/resource_index/parent_prefix_path/mars_msgs\n'}
+[8.569016] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/ament_prefix_path.sh\n'}
+[8.569131] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/ament_prefix_path.dsv\n'}
+[8.569237] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/path.sh\n'}
+[8.569342] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/path.dsv\n'}
+[8.569454] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/local_setup.bash\n'}
+[8.569604] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/local_setup.fish\n'}
+[8.569756] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/local_setup.sh\n'}
+[8.569910] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/local_setup.zsh\n'}
+[8.570060] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/local_setup.dsv\n'}
+[8.570186] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/package.dsv\n'}
+[8.570340] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/ament_index/resource_index/packages/mars_msgs\n'}
+[8.570492] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cExport.cmake\n'}
+[8.570659] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.570821] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.571005] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.571236] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.571412] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.571655] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.571818] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.571988] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.572181] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.572368] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.572551] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.572780] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.572942] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.573101] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.573261] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.573436] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.573604] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs-0.0.0-py3.14.egg-info\n'}
+[8.573674] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs-0.0.0-py3.14.egg-info/dependency_links.txt\n'}
+[8.573782] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs-0.0.0-py3.14.egg-info/PKG-INFO\n'}
+[8.573885] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs-0.0.0-py3.14.egg-info/SOURCES.txt\n'}
+[8.573993] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs-0.0.0-py3.14.egg-info/top_level.txt\n'}
+[8.574118] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs\n'}
+[8.574166] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action\n'}
+[8.574243] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action/_drive_to.py\n'}
+[8.574488] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action/_drive_to_s.c\n'}
+[8.574676] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action/__init__.py\n'}
+[8.574824] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.so\n'}
+[8.574885] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.574924] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[8.574988] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg\n'}
+[8.575019] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_monitor.py\n'}
+[8.575126] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_monitor_s.c\n'}
+[8.575276] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_rover_odometry.py\n'}
+[8.575550] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_rover_odometry_s.c\n'}
+[8.575686] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/__init__.py\n'}
+[8.575816] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/py.typed\n'}
+[8.575915] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv\n'}
+[8.575985] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv/_set_mode.py\n'}
+[8.576209] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv/_set_mode_s.c\n'}
+[8.576366] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv/__init__.py\n'}
+[8.576485] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[8.576712] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.576923] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.577134] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/__init__.py\n'}
+[8.621501] (mars_msgs) StdoutLine: {'line': b"Listing '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs'...\n"}
+[8.621775] (mars_msgs) StdoutLine: {'line': b"Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/__init__.py'...\n"}
+[8.621876] (mars_msgs) StdoutLine: {'line': b"Listing '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action'...\n"}
+[8.621953] (mars_msgs) StdoutLine: {'line': b"Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action/__init__.py'...\n"}
+[8.622021] (mars_msgs) StdoutLine: {'line': b"Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action/_drive_to.py'...\n"}
+[8.622084] (mars_msgs) StdoutLine: {'line': b"Listing '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg'...\n"}
+[8.622150] (mars_msgs) StdoutLine: {'line': b"Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/__init__.py'...\n"}
+[8.622210] (mars_msgs) StdoutLine: {'line': b"Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_monitor.py'...\n"}
+[8.622268] (mars_msgs) StdoutLine: {'line': b"Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_rover_odometry.py'...\n"}
+[8.622326] (mars_msgs) StdoutLine: {'line': b"Listing '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv'...\n"}
+[8.622383] (mars_msgs) StdoutLine: {'line': b"Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv/__init__.py'...\n"}
+[8.622429] (mars_msgs) StdoutLine: {'line': b"Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv/_set_mode.py'...\n"}
+[8.623802] (-) TimerEvent: {}
+[8.629192] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.629386] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.629563] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.629927] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.630103] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.630280] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.630467] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.630675] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[8.630793] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgsConfig.cmake\n'}
+[8.630951] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgsConfig-version.cmake\n'}
+[8.631091] (mars_msgs) StdoutLine: {'line': b'-- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/package.xml\n'}
+[8.634286] (mars_msgs) CommandEnded: {'returncode': 0}
+[8.647576] (mars_msgs) JobEnded: {'identifier': 'mars_msgs', 'rc': 0}
+[8.648778] (rover_nav) JobStarted: {'identifier': 'rover_nav'}
+[8.723913] (-) TimerEvent: {}
+[8.824144] (-) TimerEvent: {}
+[8.924373] (-) TimerEvent: {}
+[9.024602] (-) TimerEvent: {}
+[9.124899] (-) TimerEvent: {}
+[9.135054] (rover_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rover_nav', 'build', '--build-base', '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build', 'install', '--record', '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/install.log', '--install-scripts', '$base/lib/rover_nav', '--single-version-externally-managed', 'install_data'], 'cwd': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/rover_nav', 'env': OrderedDict({'USER': 'pranav', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/pranav', 'OLDPWD': '/home/pranav', 'TERMINFO': '/home/pranav/.local/kitty.app/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/home/pranav/.local/kitty.app/lib/kitty', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '4686', 'KITTY_PID': '100000', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '5326', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '100000', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'pranav', '_': '/usr/bin/colcon', 'MANAGERPIDFDID': '41320', 'JOURNAL_STREAM': '10:38095', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'pranav', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:g6e4M4M2SZKGB!11jx6#z78}->320p!;^{@7&s+w', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/lyrical/bin:/home/pranav/.local/kitty.app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '63a793dfdd3b46e2acf90e039c9b2ca7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.67C1X3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs:/opt/ros/lyrical', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages:/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': '/home/pranav/.local/kitty.app/share/man:', 'CMAKE_PREFIX_PATH': '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}), 'shell': False}
+[9.225017] (-) TimerEvent: {}
+[9.295727] (rover_nav) StdoutLine: {'line': b'running egg_info\n'}
+[9.305007] (rover_nav) StdoutLine: {'line': b'creating ../../build/rover_nav/rover_nav.egg-info\n'}
+[9.305152] (rover_nav) StdoutLine: {'line': b'writing ../../build/rover_nav/rover_nav.egg-info/PKG-INFO\n'}
+[9.305482] (rover_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/rover_nav/rover_nav.egg-info/dependency_links.txt\n'}
+[9.305731] (rover_nav) StdoutLine: {'line': b'writing entry points to ../../build/rover_nav/rover_nav.egg-info/entry_points.txt\n'}
+[9.305856] (rover_nav) StdoutLine: {'line': b'writing requirements to ../../build/rover_nav/rover_nav.egg-info/requires.txt\n'}
+[9.305974] (rover_nav) StdoutLine: {'line': b'writing top-level names to ../../build/rover_nav/rover_nav.egg-info/top_level.txt\n'}
+[9.306125] (rover_nav) StdoutLine: {'line': b"writing manifest file '../../build/rover_nav/rover_nav.egg-info/SOURCES.txt'\n"}
+[9.325169] (-) TimerEvent: {}
+[9.328634] (rover_nav) StdoutLine: {'line': b"reading manifest file '../../build/rover_nav/rover_nav.egg-info/SOURCES.txt'\n"}
+[9.329126] (rover_nav) StdoutLine: {'line': b"writing manifest file '../../build/rover_nav/rover_nav.egg-info/SOURCES.txt'\n"}
+[9.329222] (rover_nav) StdoutLine: {'line': b'running build\n'}
+[9.329291] (rover_nav) StdoutLine: {'line': b'running build_py\n'}
+[9.329369] (rover_nav) StdoutLine: {'line': b'creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav\n'}
+[9.329513] (rover_nav) StdoutLine: {'line': b'copying rover_nav/drive_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav\n'}
+[9.329760] (rover_nav) StdoutLine: {'line': b'copying rover_nav/mission_client.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav\n'}
+[9.329911] (rover_nav) StdoutLine: {'line': b'copying rover_nav/navigator_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav\n'}
+[9.330008] (rover_nav) StdoutLine: {'line': b'copying rover_nav/odom_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav\n'}
+[9.330151] (rover_nav) StdoutLine: {'line': b'copying rover_nav/square_script.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav\n'}
+[9.330275] (rover_nav) StdoutLine: {'line': b'copying rover_nav/__init__.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav\n'}
+[9.330416] (rover_nav) StdoutLine: {'line': b'copying rover_nav/py.typed -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav\n'}
+[9.330584] (rover_nav) StdoutLine: {'line': b'running install\n'}
+[9.333294] (rover_nav) StdoutLine: {'line': b'running install_lib\n'}
+[9.343617] (rover_nav) StdoutLine: {'line': b'creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav\n'}
+[9.343778] (rover_nav) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/drive_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav\n'}
+[9.343948] (rover_nav) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/mission_client.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav\n'}
+[9.344025] (rover_nav) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/navigator_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav\n'}
+[9.344135] (rover_nav) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/odom_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav\n'}
+[9.344267] (rover_nav) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/py.typed -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav\n'}
+[9.344402] (rover_nav) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/square_script.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav\n'}
+[9.344464] (rover_nav) StdoutLine: {'line': b'copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/__init__.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav\n'}
+[9.344799] (rover_nav) StdoutLine: {'line': b'byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/drive_node.py to drive_node.cpython-314.pyc\n'}
+[9.345642] (rover_nav) StdoutLine: {'line': b'byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/mission_client.py to mission_client.cpython-314.pyc\n'}
+[9.346290] (rover_nav) StdoutLine: {'line': b'byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/navigator_node.py to navigator_node.cpython-314.pyc\n'}
+[9.347303] (rover_nav) StdoutLine: {'line': b'byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/odom_node.py to odom_node.cpython-314.pyc\n'}
+[9.347895] (rover_nav) StdoutLine: {'line': b'byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/square_script.py to square_script.cpython-314.pyc\n'}
+[9.348387] (rover_nav) StdoutLine: {'line': b'byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/__init__.py to __init__.cpython-314.pyc\n'}
+[9.348566] (rover_nav) StdoutLine: {'line': b'running install_data\n'}
+[9.348644] (rover_nav) StdoutLine: {'line': b'creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/ament_index/resource_index/packages\n'}
+[9.348744] (rover_nav) StdoutLine: {'line': b'copying resource/rover_nav -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/ament_index/resource_index/packages\n'}
+[9.348841] (rover_nav) StdoutLine: {'line': b'copying package.xml -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav\n'}
+[9.349018] (rover_nav) StdoutLine: {'line': b'creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch\n'}
+[9.349076] (rover_nav) StdoutLine: {'line': b'copying launch/nav.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch\n'}
+[9.349119] (rover_nav) StdoutLine: {'line': b'copying launch/rover.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch\n'}
+[9.349274] (rover_nav) StdoutLine: {'line': b'copying launch/two_rover.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch\n'}
+[9.349353] (rover_nav) StdoutLine: {'line': b'creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/config\n'}
+[9.349392] (rover_nav) StdoutLine: {'line': b'copying config/rover.params.yaml -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/config\n'}
+[9.349498] (rover_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.360380] (rover_nav) StdoutLine: {'line': b'Copying ../../build/rover_nav/rover_nav.egg-info to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav-0.0.0-py3.14.egg-info\n'}
+[9.361321] (rover_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[9.422724] (rover_nav) StdoutLine: {'line': b'Installing drive_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav\n'}
+[9.423101] (rover_nav) StdoutLine: {'line': b'Installing mission_client script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav\n'}
+[9.423317] (rover_nav) StdoutLine: {'line': b'Installing navigator_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav\n'}
+[9.423411] (rover_nav) StdoutLine: {'line': b'Installing odom_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav\n'}
+[9.423584] (rover_nav) StdoutLine: {'line': b'Installing square_script script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav\n'}
+[9.423725] (rover_nav) StdoutLine: {'line': b"writing list of installed files to '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/install.log'\n"}
+[9.425257] (-) TimerEvent: {}
+[9.474583] (rover_nav) CommandEnded: {'returncode': 0}
+[9.480038] (rover_nav) JobEnded: {'identifier': 'rover_nav', 'rc': 0}
+[9.481066] (-) EventReactorShutdown: {}

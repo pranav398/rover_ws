@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mars_msgs/action/DriveTo.action
+// generated code does not contain a copyright notice
+
+
+module mars_msgs {
+  module action {
+    struct DriveTo_Goal {
+      float x;
+
+      float y;
+
+      float tolerance;
+    };
+    struct DriveTo_Result {
+      boolean reached;
+
+      float final_error;
+
+      float battery_used;
+    };
+    struct DriveTo_Feedback {
+      float distance_remaining;
+
+      float battery_pct;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+[console_scripts]
+health_node = rover_power.health_node:main
+monitor_node = rover_power.monitor_node:main
+power_node = rover_power.power_node:main

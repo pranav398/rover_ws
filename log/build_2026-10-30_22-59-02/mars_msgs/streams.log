@@ -1,0 +1,384 @@
+[0.026s] Invoking command in '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/mars_msgs -DCMAKE_INSTALL_PREFIX=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs
+[0.190s] -- The C compiler identification is GNU 15.2.0
+[0.348s] -- The CXX compiler identification is GNU 15.2.0
+[0.367s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.539s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.540s] -- Detecting C compile features
+[0.540s] -- Detecting C compile features - done
+[0.563s] -- Detecting CXX compiler ABI info
+[0.721s] -- Detecting CXX compiler ABI info - done
+[0.743s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.743s] -- Detecting CXX compile features
+[0.744s] -- Detecting CXX compile features - done
+[0.773s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.122s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[1.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.234s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[1.238s] -- Found std_msgs: 5.9.3 (/opt/ros/lyrical/share/std_msgs/cmake)
+[1.265s] -- Found geometry_msgs: 5.9.3 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[1.382s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[2.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.946s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[2.994s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[2.996s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[3.022s] -- Added test 'lint_cmake' to check CMake code style
+[3.024s] -- Added test 'xmllint' to check XML markup files
+[3.027s] -- Configuring done (3.0s)
+[3.073s] -- Generating done (0.0s)
+[3.094s] -- Build files have been written to: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs
+[3.102s] Invoked command in '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/mars_msgs -DCMAKE_INSTALL_PREFIX=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs
+[3.103s] Invoking command in '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs -- -j12 -l12
+[3.162s] [  1%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[3.164s] [  3%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[3.316s] [  3%] Built target mars_msgs__rosidl_generator_type_description
+[3.327s] [  4%] [1m[34mGenerating C code for ROS interfaces[0m
+[3.342s] [  6%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[3.380s] [  6%] Built target mars_msgs__rs
+[3.727s] [  6%] Built target mars_msgs__cpp
+[3.819s] [ 10%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/monitor__description.c.o[0m
+[3.819s] [ 10%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/rover_odometry__functions.c.o[0m
+[3.819s] [ 10%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/rover_odometry__type_support.c.o[0m
+[3.820s] [ 12%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/rover_odometry__description.c.o[0m
+[3.820s] [ 13%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/action/detail/drive_to__description.c.o[0m
+[3.821s] [ 15%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/monitor__functions.c.o[0m
+[3.821s] [ 16%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/monitor__type_support.c.o[0m
+[3.822s] [ 20%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/srv/detail/set_mode__functions.c.o[0m
+[3.822s] [ 20%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/srv/detail/set_mode__type_support.c.o[0m
+[3.824s] [ 21%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/srv/detail/set_mode__description.c.o[0m
+[3.861s] [ 23%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/action/detail/drive_to__functions.c.o[0m
+[3.863s] [ 24%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/action/detail/drive_to__type_support.c.o[0m
+[3.969s] [ 26%] [1m[32mLinking C shared library libmars_msgs__rosidl_generator_c.so[0m
+[4.005s] [ 26%] Built target mars_msgs__rosidl_generator_c
+[4.016s] [ 29%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[4.017s] [ 29%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[4.018s] [ 30%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[4.018s] [ 32%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[4.018s] [ 33%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.296s] [ 36%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/msg/monitor__type_support.cpp.o[0m
+[4.296s] [ 36%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/srv/set_mode__type_support.cpp.o[0m
+[4.297s] [ 38%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/msg/rover_odometry__type_support.cpp.o[0m
+[4.299s] [ 40%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/action/drive_to__type_support.cpp.o[0m
+[4.374s] [ 41%] [1m[32mLinking CXX shared library libmars_msgs__rosidl_typesupport_c.so[0m
+[4.382s] [ 43%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/msg/rover_odometry__type_support.cpp.o[0m
+[4.384s] [ 44%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/action/drive_to__type_support.cpp.o[0m
+[4.387s] [ 47%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/msg/monitor__type_support.cpp.o[0m
+[4.387s] [ 47%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/srv/set_mode__type_support.cpp.o[0m
+[4.409s] [ 49%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/action/detail/drive_to__type_support.c.o[0m
+[4.411s] [ 52%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/msg/detail/rover_odometry__type_support.c.o[0m
+[4.411s] [ 52%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/srv/detail/set_mode__type_support.c.o[0m
+[4.411s] [ 53%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/msg/detail/monitor__type_support.c.o[0m
+[4.434s] [ 53%] Built target mars_msgs__rosidl_typesupport_c
+[4.485s] [ 55%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/srv/detail/set_mode__type_support.cpp.o[0m
+[4.486s] [ 56%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/msg/detail/rover_odometry__type_support.cpp.o[0m
+[4.486s] [ 58%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/msg/detail/monitor__type_support.cpp.o[0m
+[4.490s] [ 60%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/action/detail/drive_to__type_support.cpp.o[0m
+[4.495s] [ 61%] [1m[32mLinking C shared library libmars_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.549s] [ 61%] Built target mars_msgs__rosidl_typesupport_introspection_c
+[4.805s] [ 64%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/action/detail/drive_to__type_support_c.cpp.o[0m
+[4.805s] [ 64%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/msg/detail/monitor__type_support_c.cpp.o[0m
+[4.805s] [ 66%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/srv/detail/set_mode__type_support_c.cpp.o[0m
+[4.807s] [ 67%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/msg/detail/rover_odometry__type_support_c.cpp.o[0m
+[5.267s] [ 69%] [1m[32mLinking CXX shared library libmars_msgs__rosidl_typesupport_cpp.so[0m
+[5.353s] [ 70%] [1m[32mLinking CXX shared library libmars_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.372s] [ 70%] Built target mars_msgs__rosidl_typesupport_cpp
+[5.450s] [ 70%] Built target mars_msgs__rosidl_typesupport_introspection_cpp
+[5.612s] [ 72%] [1m[32mLinking CXX shared library libmars_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.680s] [ 72%] Built target mars_msgs__rosidl_typesupport_fastrtps_c
+[5.691s] [ 73%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.176s] [ 76%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/msg/detail/dds_fastrtps/rover_odometry__type_support.cpp.o[0m
+[6.176s] [ 76%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/action/detail/dds_fastrtps/drive_to__type_support.cpp.o[0m
+[6.177s] [ 78%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/msg/detail/dds_fastrtps/monitor__type_support.cpp.o[0m
+[6.177s] [ 80%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[7.074s] [ 81%] [1m[32mLinking CXX shared library libmars_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.158s] [ 81%] Built target mars_msgs__rosidl_typesupport_fastrtps_cpp
+[7.180s] [ 81%] Built target mars_msgs
+[7.207s] [ 83%] [1m[34mGenerating Python code for ROS interfaces[0m
+[8.043s] [ 83%] Built target mars_msgs__py
+[8.065s] [ 84%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/srv/_set_mode_s.c.o[0m
+[8.065s] [ 87%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/msg/_rover_odometry_s.c.o[0m
+[8.065s] [ 87%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/msg/_monitor_s.c.o[0m
+[8.067s] [ 89%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/action/_drive_to_s.c.o[0m
+[8.076s] [ 89%] Built target ament_cmake_python_sync_mars_msgs
+[8.245s] [ 90%] [1m[32mLinking C shared library libmars_msgs__rosidl_generator_py.so[0m
+[8.283s] running egg_info
+[8.296s] creating mars_msgs.egg-info
+[8.296s] writing mars_msgs.egg-info/PKG-INFO
+[8.296s] writing dependency_links to mars_msgs.egg-info/dependency_links.txt
+[8.296s] writing top-level names to mars_msgs.egg-info/top_level.txt
+[8.297s] writing manifest file 'mars_msgs.egg-info/SOURCES.txt'
+[8.302s] [ 90%] Built target mars_msgs__rosidl_generator_py
+[8.323s] [ 92%] [32mBuilding C object CMakeFiles/mars_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.323s] [ 93%] [32mBuilding C object CMakeFiles/mars_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.323s] [ 95%] [32mBuilding C object CMakeFiles/mars_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.350s] reading manifest file 'mars_msgs.egg-info/SOURCES.txt'
+[8.351s] writing manifest file 'mars_msgs.egg-info/SOURCES.txt'
+[8.394s] [ 95%] Built target ament_cmake_python_build_mars_msgs_egg
+[8.435s] [ 96%] [1m[32mLinking C shared module rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[8.445s] [ 98%] [1m[32mLinking C shared module rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.469s] [ 98%] Built target mars_msgs_s__rosidl_typesupport_introspection_c
+[8.473s] [100%] [1m[32mLinking C shared module rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_c.so[0m
+[8.481s] [100%] Built target mars_msgs_s__rosidl_typesupport_fastrtps_c
+[8.509s] [100%] Built target mars_msgs_s__rosidl_typesupport_c
+[8.521s] Invoked command in '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs -- -j12 -l12
+[8.533s] Invoking command in '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs
+[8.542s] -- Install configuration: ""
+[8.542s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/ament_index/resource_index/rosidl_interfaces/mars_msgs
+[8.542s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/RoverOdometry.json
+[8.542s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/Monitor.json
+[8.542s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/srv/SetMode.json
+[8.542s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/action/DriveTo.json
+[8.543s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[8.543s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action
+[8.543s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail
+[8.543s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__description.c
+[8.543s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__functions.c
+[8.543s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__functions.h
+[8.544s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__struct.h
+[8.544s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__type_support.c
+[8.544s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__type_support.h
+[8.545s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/drive_to.h
+[8.545s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[8.545s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[8.545s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__description.c
+[8.545s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__functions.c
+[8.545s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__functions.h
+[8.545s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__struct.h
+[8.545s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__type_support.c
+[8.545s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__type_support.h
+[8.546s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__description.c
+[8.546s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__functions.c
+[8.546s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__functions.h
+[8.546s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__struct.h
+[8.546s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.c
+[8.546s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.h
+[8.546s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/monitor.h
+[8.546s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.546s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rover_odometry.h
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__description.c
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__functions.c
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__functions.h
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__struct.h
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__type_support.c
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__type_support.h
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/set_mode.h
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/library_path.sh
+[8.547s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/library_path.dsv
+[8.548s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_c.so
+[8.548s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_c.so" to ""
+[8.548s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[8.548s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action
+[8.548s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail
+[8.548s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__rosidl_typesupport_fastrtps_c.h
+[8.548s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[8.548s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[8.548s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__rosidl_typesupport_fastrtps_c.h
+[8.548s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_fastrtps_c.h
+[8.549s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.549s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[8.549s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[8.549s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[8.549s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_c.so
+[8.549s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.549s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[8.549s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action
+[8.550s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail
+[8.550s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__rosidl_typesupport_introspection_c.h
+[8.550s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__type_support.c
+[8.550s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[8.550s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[8.550s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__rosidl_typesupport_introspection_c.h
+[8.550s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__type_support.c
+[8.550s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_introspection_c.h
+[8.550s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.c
+[8.550s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.550s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[8.550s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[8.550s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+[8.550s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__type_support.c
+[8.550s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_c.so
+[8.551s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.551s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_c.so
+[8.552s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_c.so" to ""
+[8.552s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[8.552s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action
+[8.552s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail
+[8.552s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__builder.hpp
+[8.552s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__struct.hpp
+[8.552s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__traits.hpp
+[8.553s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__type_support.hpp
+[8.553s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/drive_to.hpp
+[8.553s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[8.553s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[8.553s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__builder.hpp
+[8.554s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__struct.hpp
+[8.554s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__traits.hpp
+[8.554s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__type_support.hpp
+[8.554s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__builder.hpp
+[8.554s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__struct.hpp
+[8.554s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__traits.hpp
+[8.555s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.hpp
+[8.555s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/monitor.hpp
+[8.555s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.555s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rover_odometry.hpp
+[8.555s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[8.555s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[8.555s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__builder.hpp
+[8.555s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__struct.hpp
+[8.555s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__traits.hpp
+[8.555s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__type_support.hpp
+[8.556s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/set_mode.hpp
+[8.556s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[8.556s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action
+[8.556s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail
+[8.556s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/dds_fastrtps
+[8.556s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__rosidl_typesupport_fastrtps_cpp.hpp
+[8.556s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[8.556s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[8.556s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/dds_fastrtps
+[8.556s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__rosidl_typesupport_fastrtps_cpp.hpp
+[8.556s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[8.556s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.557s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[8.557s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[8.557s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/dds_fastrtps
+[8.557s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[8.557s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.558s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.558s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[8.558s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action
+[8.558s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail
+[8.558s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__rosidl_typesupport_introspection_cpp.hpp
+[8.558s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/action/detail/drive_to__type_support.cpp
+[8.558s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[8.558s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[8.558s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__rosidl_typesupport_introspection_cpp.hpp
+[8.559s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/monitor__type_support.cpp
+[8.559s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_introspection_cpp.hpp
+[8.559s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.cpp
+[8.559s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[8.559s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[8.559s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[8.559s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/set_mode__type_support.cpp
+[8.560s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_cpp.so
+[8.560s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.560s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_cpp.so
+[8.561s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_cpp.so" to ""
+[8.561s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/pythonpath.sh
+[8.561s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/pythonpath.dsv
+[8.562s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.562s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[8.562s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.so
+[8.563s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[8.563s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.so
+[8.563s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.so" to ""
+[8.563s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_py.so
+[8.564s] -- Set non-toolchain portion of runtime path of "/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_py.so" to ""
+[8.564s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust
+[8.564s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/build.rs
+[8.564s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/Cargo.toml
+[8.564s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src
+[8.564s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/action
+[8.564s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/action/rmw.rs
+[8.564s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/action.rs
+[8.565s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/lib.rs
+[8.565s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/msg
+[8.565s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/msg/rmw.rs
+[8.565s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/msg.rs
+[8.565s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/srv
+[8.565s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/srv/rmw.rs
+[8.565s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/rust/src/srv.rs
+[8.566s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/RoverOdometry.idl
+[8.566s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/Monitor.idl
+[8.566s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/srv/SetMode.idl
+[8.566s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/action/DriveTo.idl
+[8.566s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/RoverOdometry.msg
+[8.566s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/msg/Monitor.msg
+[8.566s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/srv/SetMode.srv
+[8.566s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/action/DriveTo.action
+[8.567s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/ament_index/resource_index/package_run_dependencies/mars_msgs
+[8.567s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/ament_index/resource_index/parent_prefix_path/mars_msgs
+[8.567s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/ament_prefix_path.sh
+[8.567s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/ament_prefix_path.dsv
+[8.567s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/path.sh
+[8.567s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/environment/path.dsv
+[8.567s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/local_setup.bash
+[8.567s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/local_setup.fish
+[8.568s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/local_setup.sh
+[8.568s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/local_setup.zsh
+[8.568s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/local_setup.dsv
+[8.568s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/package.dsv
+[8.568s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/ament_index/resource_index/packages/mars_msgs
+[8.568s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cExport.cmake
+[8.568s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.569s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.569s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.569s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.569s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.569s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cExport.cmake
+[8.570s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.570s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cppExport.cmake
+[8.570s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.570s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.570s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.571s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.571s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cppExport.cmake
+[8.571s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.571s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_pyExport.cmake
+[8.571s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.571s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs-0.0.0-py3.14.egg-info
+[8.571s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs-0.0.0-py3.14.egg-info/dependency_links.txt
+[8.572s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs-0.0.0-py3.14.egg-info/PKG-INFO
+[8.572s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs-0.0.0-py3.14.egg-info/SOURCES.txt
+[8.572s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs-0.0.0-py3.14.egg-info/top_level.txt
+[8.572s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs
+[8.572s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action
+[8.572s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action/_drive_to.py
+[8.572s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action/_drive_to_s.c
+[8.572s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action/__init__.py
+[8.573s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.so
+[8.573s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.573s] -- Up-to-date: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.so
+[8.573s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg
+[8.573s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_monitor.py
+[8.573s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_monitor_s.c
+[8.573s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_rover_odometry.py
+[8.573s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_rover_odometry_s.c
+[8.573s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/__init__.py
+[8.574s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/py.typed
+[8.574s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv
+[8.574s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv/_set_mode.py
+[8.574s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv/_set_mode_s.c
+[8.574s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv/__init__.py
+[8.574s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_c.c
+[8.574s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.575s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.575s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/__init__.py
+[8.619s] Listing '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs'...
+[8.620s] Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/__init__.py'...
+[8.620s] Listing '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action'...
+[8.620s] Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action/__init__.py'...
+[8.620s] Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/action/_drive_to.py'...
+[8.620s] Listing '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg'...
+[8.620s] Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/__init__.py'...
+[8.620s] Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_monitor.py'...
+[8.620s] Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/msg/_rover_odometry.py'...
+[8.620s] Listing '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv'...
+[8.620s] Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv/__init__.py'...
+[8.620s] Compiling '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages/mars_msgs/srv/_set_mode.py'...
+[8.627s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake-extras.cmake
+[8.627s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.627s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.628s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.628s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.628s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.628s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.628s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[8.629s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgsConfig.cmake
+[8.629s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgsConfig-version.cmake
+[8.629s] -- Installing: /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/share/mars_msgs/package.xml
+[8.632s] Invoked command in '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/mars_msgs

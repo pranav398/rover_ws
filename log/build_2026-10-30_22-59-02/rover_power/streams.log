@@ -1,0 +1,45 @@
+[1.046s] Invoking command in '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/rover_power': PYTHONPATH=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_power build --build-base /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build install --record /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/install.log --install-scripts $base/lib/rover_power --single-version-externally-managed install_data
+[1.241s] running egg_info
+[1.251s] creating ../../build/rover_power/rover_power.egg-info
+[1.251s] writing ../../build/rover_power/rover_power.egg-info/PKG-INFO
+[1.251s] writing dependency_links to ../../build/rover_power/rover_power.egg-info/dependency_links.txt
+[1.251s] writing entry points to ../../build/rover_power/rover_power.egg-info/entry_points.txt
+[1.252s] writing requirements to ../../build/rover_power/rover_power.egg-info/requires.txt
+[1.252s] writing top-level names to ../../build/rover_power/rover_power.egg-info/top_level.txt
+[1.252s] writing manifest file '../../build/rover_power/rover_power.egg-info/SOURCES.txt'
+[1.273s] reading manifest file '../../build/rover_power/rover_power.egg-info/SOURCES.txt'
+[1.274s] writing manifest file '../../build/rover_power/rover_power.egg-info/SOURCES.txt'
+[1.274s] running build
+[1.274s] running build_py
+[1.274s] creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power
+[1.274s] copying rover_power/health_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power
+[1.274s] copying rover_power/monitor_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power
+[1.275s] copying rover_power/power_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power
+[1.275s] copying rover_power/__init__.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power
+[1.275s] copying rover_power/py.typed -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power
+[1.275s] running install
+[1.278s] running install_lib
+[1.288s] creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power
+[1.288s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power/health_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power
+[1.288s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power/monitor_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power
+[1.288s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power/power_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power
+[1.288s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power/py.typed -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power
+[1.288s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build/lib/rover_power/__init__.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power
+[1.289s] byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power/health_node.py to health_node.cpython-314.pyc
+[1.289s] byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power/monitor_node.py to monitor_node.cpython-314.pyc
+[1.291s] byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power/power_node.py to power_node.cpython-314.pyc
+[1.292s] byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power/__init__.py to __init__.cpython-314.pyc
+[1.292s] running install_data
+[1.292s] creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/share/ament_index/resource_index/packages
+[1.292s] copying resource/rover_power -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/share/ament_index/resource_index/packages
+[1.292s] copying package.xml -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/share/rover_power
+[1.293s] creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/share/rover_power/launch
+[1.293s] copying launch/power.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/share/rover_power/launch
+[1.293s] running install_egg_info
+[1.303s] Copying ../../build/rover_power/rover_power.egg-info to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages/rover_power-0.0.0-py3.14.egg-info
+[1.304s] running install_scripts
+[1.361s] Installing health_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/rover_power
+[1.362s] Installing monitor_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/rover_power
+[1.362s] Installing power_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/rover_power
+[1.362s] writing list of installed files to '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/install.log'
+[1.392s] Invoked command in '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/rover_power' returned '0': PYTHONPATH=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_power/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_power build --build-base /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/build install --record /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_power/install.log --install-scripts $base/lib/rover_power --single-version-externally-managed install_data

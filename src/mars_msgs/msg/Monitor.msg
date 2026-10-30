@@ -1,0 +1,3 @@
+float32 battery
+float32 temp
+string health

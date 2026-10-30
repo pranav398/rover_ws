@@ -1,0 +1,57 @@
+[0.487s] Invoking command in '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/rover_nav': AMENT_PREFIX_PATH=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages:/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_nav build --build-base /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build install --record /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/install.log --install-scripts $base/lib/rover_nav --single-version-externally-managed install_data
+[0.647s] running egg_info
+[0.656s] creating ../../build/rover_nav/rover_nav.egg-info
+[0.656s] writing ../../build/rover_nav/rover_nav.egg-info/PKG-INFO
+[0.657s] writing dependency_links to ../../build/rover_nav/rover_nav.egg-info/dependency_links.txt
+[0.657s] writing entry points to ../../build/rover_nav/rover_nav.egg-info/entry_points.txt
+[0.657s] writing requirements to ../../build/rover_nav/rover_nav.egg-info/requires.txt
+[0.657s] writing top-level names to ../../build/rover_nav/rover_nav.egg-info/top_level.txt
+[0.657s] writing manifest file '../../build/rover_nav/rover_nav.egg-info/SOURCES.txt'
+[0.680s] reading manifest file '../../build/rover_nav/rover_nav.egg-info/SOURCES.txt'
+[0.680s] writing manifest file '../../build/rover_nav/rover_nav.egg-info/SOURCES.txt'
+[0.680s] running build
+[0.681s] running build_py
+[0.681s] creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+[0.681s] copying rover_nav/drive_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+[0.681s] copying rover_nav/mission_client.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+[0.681s] copying rover_nav/navigator_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+[0.681s] copying rover_nav/odom_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+[0.681s] copying rover_nav/square_script.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+[0.682s] copying rover_nav/__init__.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+[0.682s] copying rover_nav/py.typed -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav
+[0.682s] running install
+[0.685s] running install_lib
+[0.695s] creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+[0.695s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/drive_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+[0.695s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/mission_client.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+[0.695s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/navigator_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+[0.695s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/odom_node.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+[0.696s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/py.typed -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+[0.696s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/square_script.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+[0.696s] copying /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build/lib/rover_nav/__init__.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav
+[0.696s] byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/drive_node.py to drive_node.cpython-314.pyc
+[0.697s] byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/mission_client.py to mission_client.cpython-314.pyc
+[0.698s] byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/navigator_node.py to navigator_node.cpython-314.pyc
+[0.699s] byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/odom_node.py to odom_node.cpython-314.pyc
+[0.699s] byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/square_script.py to square_script.cpython-314.pyc
+[0.700s] byte-compiling /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav/__init__.py to __init__.cpython-314.pyc
+[0.700s] running install_data
+[0.700s] creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/ament_index/resource_index/packages
+[0.700s] copying resource/rover_nav -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/ament_index/resource_index/packages
+[0.700s] copying package.xml -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav
+[0.700s] creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch
+[0.700s] copying launch/nav.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch
+[0.700s] copying launch/rover.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch
+[0.700s] copying launch/two_rover.launch.py -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/launch
+[0.701s] creating /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/config
+[0.701s] copying config/rover.params.yaml -> /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/share/rover_nav/config
+[0.701s] running install_egg_info
+[0.712s] Copying ../../build/rover_nav/rover_nav.egg-info to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages/rover_nav-0.0.0-py3.14.egg-info
+[0.713s] running install_scripts
+[0.774s] Installing drive_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav
+[0.774s] Installing mission_client script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav
+[0.775s] Installing navigator_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav
+[0.775s] Installing odom_node script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav
+[0.775s] Installing square_script script to /run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/rover_nav
+[0.775s] writing list of installed files to '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/install.log'
+[0.826s] Invoked command in '/run/media/pranav/Files/Education/IIT Bombay/rover_ws/src/rover_nav' returned '0': AMENT_PREFIX_PATH=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/rover_nav/lib/python3.14/site-packages:/run/media/pranav/Files/Education/IIT Bombay/rover_ws/install/mars_msgs/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_nav build --build-base /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/build install --record /run/media/pranav/Files/Education/IIT Bombay/rover_ws/build/rover_nav/install.log --install-scripts $base/lib/rover_nav --single-version-externally-managed install_data

@@ -1,0 +1,28 @@
+drive_node:
+  ros__parameters:
+    max_speed: 3
+
+odom_node:
+  ros__parameters:
+    speed_limit: 2.25
+    odom_hz: 1
+
+navigator_node:
+  ros__parameters:
+    speed_limit: 2.25
+    odom_hz: 1
+
+mission_client:
+  ros__parameters:
+    shelter_x: -2.0
+    shelter_y: 5.0
+    tolerance: 0.3
+
+health_node:
+  ros__parameters:
+    publish_hz: 5
+    drain_coeff: 0.6
+
+monitor_node:
+  ros__parameters:
+    publish_hz: 5

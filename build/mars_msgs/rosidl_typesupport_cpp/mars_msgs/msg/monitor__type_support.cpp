@@ -1,0 +1,112 @@
+// generated from rosidl_typesupport_cpp/resource/idl__type_support.cpp.em
+// with input from mars_msgs:msg/Monitor.idl
+// generated code does not contain a copyright notice
+
+#include "cstddef"
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "mars_msgs/msg/detail/monitor__functions.h"
+#include "mars_msgs/msg/detail/monitor__struct.hpp"
+#include "rosidl_typesupport_cpp/identifier.hpp"
+#include "rosidl_typesupport_cpp/message_type_support.hpp"
+#include "rosidl_typesupport_c/type_support_map.h"
+#include "rosidl_typesupport_cpp/message_type_support_dispatch.hpp"
+#include "rosidl_typesupport_cpp/visibility_control.h"
+#include "rosidl_typesupport_interface/macros.h"
+
+namespace mars_msgs
+{
+
+namespace msg
+{
+
+namespace rosidl_typesupport_cpp
+{
+
+typedef struct _Monitor_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Monitor_type_support_ids_t;
+
+static const _Monitor_type_support_ids_t _Monitor_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_cpp",  // ::rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
+    "rosidl_typesupport_introspection_cpp",  // ::rosidl_typesupport_introspection_cpp::typesupport_identifier,
+  }
+};
+
+typedef struct _Monitor_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Monitor_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Monitor_type_support_symbol_names_t _Monitor_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, mars_msgs, msg, Monitor)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, mars_msgs, msg, Monitor)),
+  }
+};
+
+typedef struct _Monitor_type_support_data_t
+{
+  void * data[2];
+} _Monitor_type_support_data_t;
+
+static _Monitor_type_support_data_t _Monitor_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Monitor_message_typesupport_map = {
+  2,
+  "mars_msgs",
+  &_Monitor_message_typesupport_ids.typesupport_identifier[0],
+  &_Monitor_message_typesupport_symbol_names.symbol_name[0],
+  &_Monitor_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Monitor_message_type_support_handle = {
+  ::rosidl_typesupport_cpp::typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Monitor_message_typesupport_map),
+  ::rosidl_typesupport_cpp::get_message_typesupport_handle_function,
+  &mars_msgs__msg__Monitor__get_type_hash,
+  &mars_msgs__msg__Monitor__get_type_description,
+  &mars_msgs__msg__Monitor__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_cpp
+
+}  // namespace msg
+
+}  // namespace mars_msgs
+
+namespace rosidl_typesupport_cpp
+{
+
+template<>
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_message_type_support_t *
+get_message_type_support_handle<mars_msgs::msg::Monitor>()
+{
+  return &::mars_msgs::msg::rosidl_typesupport_cpp::Monitor_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_cpp, mars_msgs, msg, Monitor)() {
+  return get_message_type_support_handle<mars_msgs::msg::Monitor>();
+}
+
+#ifdef __cplusplus
+}
+#endif
+}  // namespace rosidl_typesupport_cpp

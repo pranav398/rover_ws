@@ -1,0 +1,6 @@
+[console_scripts]
+drive_node = rover_nav.drive_node:main
+mission_client = rover_nav.mission_client:main
+navigator_node = rover_nav.navigator_node:main
+odom_node = rover_nav.odom_node:main
+square_script = rover_nav.square_script:main
